@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="32" tileheight="32" nextobjectid="5">
+ <properties>
+  <property name="type" value="我是地图属性"/>
+ </properties>
+ <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="32" tileheight="32" spacing="1" margin="1" tilecount="48" columns="8">
+  <image source="tmw_desert_spacing.png" width="265" height="199"/>
+  <terraintypes>
+   <terrain name="t1" tile="29"/>
+   <terrain name="t2" tile="9"/>
+   <terrain name="t3" tile="33"/>
+   <terrain name="t4" tile="14"/>
+  </terraintypes>
+  <tile id="0" terrain="0,0,0,1">
+   <properties>
+    <property name="type" value="我是图块属性"/>
+   </properties>
+  </tile>
+  <tile id="1" terrain="0,0,1,1"/>
+  <tile id="2" terrain="0,0,1,0"/>
+  <tile id="3" terrain="3,3,3,0"/>
+  <tile id="4" terrain="3,3,0,3"/>
+  <tile id="5" terrain="0,0,0,3"/>
+  <tile id="6" terrain="0,0,3,3"/>
+  <tile id="7" terrain="0,0,3,0"/>
+  <tile id="8" terrain="0,1,0,1"/>
+  <tile id="9" terrain="1,1,1,1"/>
+  <tile id="10" terrain="1,0,1,0"/>
+  <tile id="11" terrain="3,0,3,3"/>
+  <tile id="12" terrain="0,3,3,3"/>
+  <tile id="13" terrain="0,3,0,3"/>
+  <tile id="14" terrain="3,3,3,3"/>
+  <tile id="15" terrain="3,0,3,0"/>
+  <tile id="16" terrain="0,1,0,0"/>
+  <tile id="17" terrain="1,1,0,0"/>
+  <tile id="18" terrain="1,0,0,0"/>
+  <tile id="19" terrain="1,1,1,0"/>
+  <tile id="20" terrain="1,1,0,1"/>
+  <tile id="21" terrain="0,3,0,0"/>
+  <tile id="22" terrain="3,3,0,0"/>
+  <tile id="23" terrain="3,0,0,0"/>
+  <tile id="24" terrain="0,0,0,2"/>
+  <tile id="25" terrain="0,0,2,2"/>
+  <tile id="26" terrain="0,0,2,0"/>
+  <tile id="27" terrain="1,0,1,1"/>
+  <tile id="28" terrain="0,1,1,1"/>
+  <tile id="29" terrain="0,0,0,0"/>
+  <tile id="32" terrain="0,2,0,2"/>
+  <tile id="33" terrain="2,2,2,2">
+   <properties>
+    <property name="move" value="true"/>
+   </properties>
+  </tile>
+  <tile id="34" terrain="2,0,2,0"/>
+  <tile id="35" terrain="2,2,2,0"/>
+  <tile id="36" terrain="2,2,0,2"/>
+  <tile id="40" terrain="0,2,0,0"/>
+  <tile id="41" terrain="2,2,0,0"/>
+  <tile id="42" terrain="2,0,0,0"/>
+  <tile id="43" terrain="2,0,2,2"/>
+  <tile id="44" terrain="0,2,2,2"/>
+ </tileset>
+ <layer name="scene" width="25" height="25">
+  <properties>
+   <property name="type" value="我是图层属性"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzlltlOwzAQRc1eoOwgxJakUGJTRJL//zrG0oxyNRo7DsobD0dR4/ae8diJG5xzFdHzdYoA6LEn4hl4UeM1MWRy41hLeL7n4ftS34Z4Bz4SWZ6zxNvw1XLrun8KHG0iK5WrMzXa0SVq00zlRrbEjvhO1Kl7+hdSvW0XcmwT9cf9kdobpbk76M8esU8cgAP3+pQD8zC3guw34ow4h1zs3xfxmXFY+1HyJVt4hbl03CsPHl2r1QtE5ws4F3EdEycZVsRpIi/n6LlfcV0uiKsM18QN8TDT4bn+qfzImudS4rkn7tjREJcF+TiXij23QM/9ls+SL8/fHMfaWCPJapz9nA8zHTnnCuazpMPqoz6LavbWCzqscyL2MSzo8IYDn8OjwrxD4lExcEbK0bjx3O7hN/JeDkaejHVu3FOdWo/W2ftA1se78b0f+D7+d/hP/ALiaUEF
+  </data>
+ </layer>
+ <objectgroup name="object">
+  <object id="1" name="color" x="117.333" y="474.667" width="372" height="150.667"/>
+  <object id="3" name="player" x="474.667" y="172" width="34.6667" height="34.6667">
+   <properties>
+    <property name="type" value="我是对象属性"/>
+   </properties>
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>
